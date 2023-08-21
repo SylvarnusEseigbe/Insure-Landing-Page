@@ -172,18 +172,6 @@ nav {
   gap: 30px;
 }
 
-.features_cards:nth-child(1) {
-  transition: 100ms;
-}
-
-.features_cards:nth-child(2) {
-  transition: 300ms;
-}
-
-.features_cards:nth-child(3) {
-  transition: 500ms;
-}
-
 .feature_card img {
   width: 60px;
   margin-bottom: 16px;
@@ -251,15 +239,15 @@ footer {
   position: relative;
 }
 
-.footer_wrapper {
+/* .footer_wrapper {
   z-index: 2;
-}
+} */
 
 .footer_pattern {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .footer_icon {
@@ -338,6 +326,7 @@ footer {
 
   .dropdown {
     display: block !important;
+    z-index: 1000;
   }
 
   .nav_links {

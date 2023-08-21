@@ -2,6 +2,8 @@ const hamburger = document.querySelector(".hamburger_icon");
 
 const scroll = document.querySelector("#scroll");
 
+const section = document.querySelectorAll(".wrapper");
+
 
 // Mobile Hamburger Menu
 hamburger.addEventListener("click", () => {
@@ -32,6 +34,6 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
-const section = document.querySelectorAll(".wrapper");
+
 
 section.forEach((el) => observer.observe(el));
