@@ -26,11 +26,17 @@ scroll.addEventListener("click", () => {
 // On scroll animation
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
+    // return entry.target.classList.add("show");
+
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
-    } else {
-      entry.target.classList.remove("show");
     }
+
+    // if (entry.isIntersecting) {
+    //   entry.target.classList.add("show");
+    // } else {
+    //   entry.target.classList.remove("show");
+    // }
   });
 });
 
