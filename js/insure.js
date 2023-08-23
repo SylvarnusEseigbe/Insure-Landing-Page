@@ -21,7 +21,7 @@ hamburger.addEventListener("click", () => {
 
 // Scroll to top
 scroll.addEventListener("click", () => {
-  window.scroll({ top: 0, behavior: "smooth" });
+  window.scroll({ top: 0, });
 });
 
 // On scroll animation

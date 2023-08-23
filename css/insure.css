@@ -41,6 +41,10 @@
   filter: blur(0);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 nav {
   width: 100%;
 }
