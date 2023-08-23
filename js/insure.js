@@ -13,6 +13,7 @@ hamburger.addEventListener("click", () => {
 
   if (navLinks.classList.contains("dropdown")) {
     hamburger.src = "../images/icon-close.svg";
+    // hamburger.style.transition = "0.5s ease"
   } else {
     hamburger.src = "../images/icon-hamburger.svg";
   }
