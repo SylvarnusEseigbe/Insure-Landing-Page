@@ -126,7 +126,9 @@ nav {
 
 .hero_image {
   margin-bottom: -60px;
+  width: 100%;
 }
+
 
 .hero_text a {
   font-family: var(--ParagraphFont);
@@ -212,6 +214,7 @@ nav {
 .cta_text h1 {
   color: var(--White);
   font-size: 40px;
+  width: 100%;
 }
 
 .cta_button {
@@ -225,6 +228,7 @@ nav {
   color: var(--White);
   text-decoration: none;
   transition: 0.5s ease-out;
+  width: 100%;
 }
 
 .cta_button a:hover {
@@ -316,7 +320,8 @@ footer {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 800px) {
   .hamburger {
     display: block;
   }
